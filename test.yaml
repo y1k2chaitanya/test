@@ -1,0 +1,24 @@
+metadata:
+    name: "test"
+    
+    maintainer:                    # primary content owner
+ 
+    priority: Urgent
+
+    description: ""
+            
+    label: compute                              # this is essential for deployment (executable)
+     
+    entrypoint: entrypoint: chmod +x test.sh && ./test.sh                          #this file starts the test
+ 
+    prerequisites:
+        - None      # application benchmark
+                    # tool
+         
+    quality_model:
+        characteristic: Performance Efficiency
+        sub-characteristic: Time-behavior
+ 
+    duration: 1 minutes
+       
+    params:
